@@ -5,3 +5,5 @@ u = urllib2.urlopen(url)
 localFile = open('iris.csv', 'w')
 localFile.write(u.read())
 localFile.close()
+
+print url
